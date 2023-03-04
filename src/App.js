@@ -2,6 +2,7 @@ import "./styles/App.scss"
 import IntroVideo from "./components/IntroVideo";
 import Section from "./components/Section";
 import Test from "./components/Test";
+import Upload from "./components/Upload";
 import freshTopicImg from './assets/academy.png'
 import freshTopic2Img from './assets/story.png'
 import data from './data/data.json'
@@ -40,7 +41,10 @@ function App() {
       btnBgColor={yellow}
       btnColor={pink}
     /> */}
+
     <Test/>
+
+    {/* <Upload/> */}
     </>
   );
 }
